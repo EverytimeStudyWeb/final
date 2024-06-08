@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+    height: 10vh;
+    min-height: 100px;
+    min-width: 700px;
+}
+
+.nav img{
+    align-items: start;
+    padding-left: 15px;
+}
+
+.nav h1{
+    margin: auto;
+
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.nav img{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+

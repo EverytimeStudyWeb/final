@@ -1,0 +1,61 @@
+.timer-main{
+    margin-top: 20px;
+}
+
+.all-timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.timer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    height: 70px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid black;
+}
+.button{
+    border: 0.5px solid black;
+    border-radius: 20px;    
+    padding: 10px;
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+.save-timer h2{ 
+    margin-left: 10px;
+}
+
+.save-timer li {
+    display: flex;
+    align-items: center;
+}
+.save-timer li a{
+    flex-grow: 1;
+    margin-right: 5px;
+}
+.save-timer-partbtn{
+    border: 0.1px solid black;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+}
+
+.save-timer-allbtn{
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 3px 5px;
+}
