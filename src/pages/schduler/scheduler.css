@@ -17,7 +17,7 @@ table {
 th, td {
     border: 1.5px solid rgb(163, 161, 161);
     text-align: center;
-    padding: 8px;
+    padding: 20px;
     color: grey;
     max-width: 100px; 
     overflow: hidden; 
@@ -25,7 +25,7 @@ th, td {
 }
 
 td:first-child, th:first-child {
-    width: 30px;
+    width: 20px;
 }
 
 tbody td {
