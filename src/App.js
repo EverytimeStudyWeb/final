@@ -20,7 +20,7 @@ function App() {
       <Route path='/market' element={<Market/>}></Route>
       <Route path='/timer' element={<Timer/>}></Route>
       <Route path='/restaurants' element={<Restaurants/>}></Route>
-      <Route path='/restaurants/week' element={<Week/>}></Route>
+      <Route path='/restaurants/week  ${item.name}' element={<Week/>}></Route>
       <Route path='/schduler' element={<Scheduler/>}></Route>
     </Routes>
     </div>

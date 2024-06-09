@@ -8,14 +8,18 @@
     min-width: 700px;
 }
 
-.nav img{
-    align-items: start;
-    padding-left: 15px;
+.nav p{
+    margin: auto;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 
-.nav h1{
-    margin: auto;
-
+.nav a{
+    color: black;
+}
+.nav a:hover{
+    color: red;
+    transition: color 0.2s ease-in-out;
 }
 
 .nav-link{
@@ -23,8 +27,10 @@
 }
 
 .nav img{
-    width: 100px;
+    width: 150px;
     height: 100px;
     margin: 0;
+    align-items: start;
+    padding-left: 15px;
 }
 

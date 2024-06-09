@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { restaurant } from "./../../data.js";
-import "./restaurants.css";
+import { restaurant } from "../../data.js";
+import "../restaurants/restaurants.css";
+import { Link } from "react-router-dom";
 
 export default function Restaurants() {
   // let img = process.env.PUBLIC_URL + "/images/red.png";
@@ -10,10 +11,10 @@ export default function Restaurants() {
       <div className="restaurants">
         {restaurant.map((item, idx) => {
           return (
-            <div className="restaurant">
-              <img src={item.img } alt="식당 이미지" />
+            <Link to={`/restaurants/week${item.name}`} className="restaurant">
+              <img src={item.img} alt="식당 이미지" />
               <p>{item.name}</p>
-            </div>
+            </Link>
           );
         })}
       </div>

@@ -3,6 +3,16 @@
     text-decoration: none;
 }
 
+.home a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.home p{
+    padding: 10px 0;
+    font-weight: 800;
+}
+
 .home{
     position: relative;
     display: flex;
@@ -12,6 +22,7 @@
     min-height: 90%;
     text-align: center;
     min-width: 700px;
+    margin-top: 30px;
 }
 
 .calendar{
@@ -32,6 +43,7 @@
     background: white;
     border: 0.5px solid black;
     cursor: pointer;
+    padding: 5px;
 }
 .calendar abbr{
     text-decoration: none;
@@ -58,13 +70,13 @@
 }
 
 
-.home li{
+.board li{
     margin: 5px 0;
     border-bottom: 1px solid black;
 }
 
 .board{
-    border: 3px solid black;
+    border: 1px solid black;
     width: 15%;
     height: 40%;
     margin-top: 10px;
@@ -79,6 +91,12 @@
     text-decoration: none;
 }
 
+.board p{
+    background: rgb(230, 226, 238);
+}
+
+
+
 .home p{
     border-bottom: 1px solid black;
 }
@@ -88,24 +106,40 @@
 }
 
 .class{
-    border: 3px solid black;
-    width: 35%;
-    height: 100%;
+    border: 1px solid black;
+    width: 630px;
+    height: 800px;
     margin-top: 10px;
     margin-right: 5px;
+    box-shadow:  10px 10px 20px 1px black;
 }
 
 .class p{
     border-bottom: 1px solid black;
+    background: rgb(230, 226, 238);
 }
 
-.menu{
-    border: 3px solid black;
-    width: 35%;
-    height: 100%;
+.class img{
+    width: 620px;
+    height: 690px;
+}
+
+.class li{
     margin-top: 10px;
+    font-size: 15px;
+}
+
+
+
+.menu{
+    border: 1px solid black;
+    width: 630px;
+    height: 800px;
+    margin-top: 10px;
+    box-shadow:  10px 10px 20px 1px black;
 }
 
 .menu p{
     border-bottom: 1px solid black;
+    background: rgb(230, 226, 238);
 }

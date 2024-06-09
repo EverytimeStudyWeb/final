@@ -58,13 +58,14 @@ tbody td {
     margin-top: 50px;
     padding-top: 20px;
     padding-right: 6px;
+    margin-bottom: 10px;
 }
 
 .plus-btn p{
     position: absolute;
     transform: translateY(-50%);
     padding: 0;
-    margin: 0;
+    margin-left: 10px;
 }
 
 .highlight {

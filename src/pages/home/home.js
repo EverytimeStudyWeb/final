@@ -33,12 +33,13 @@ export default function Home()
             </div>
             <ul className='class'>
                 <p>시간표</p>
-                <li><Link to={'/schduler'}>시간표</Link></li>
+                <li><Link  to={'/schduler'}>상세보기</Link></li>
+                <div><img src='./images/class.png'/></div>
+
             </ul>
             <ul className='menu'>    
                 <p>학식</p>
                 <li><Link to={'/restaurants'}>학식표</Link></li>
-                <li><Link to={'/restaurants/week'}>금주의 학식</Link></li>
             </ul>
         </div>
     )
