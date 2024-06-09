@@ -11,7 +11,7 @@ export default function Restaurants() {
       <div className="restaurants">
         {restaurant.map((item, idx) => {
           return (
-            <Link to={`/restaurants/week${item.name}`} className="restaurant">
+            <Link to={`/restaurants/week/${item.name}`} className="restaurant">
               <img src={item.img} alt="식당 이미지" />
               <p>{item.name}</p>
             </Link>

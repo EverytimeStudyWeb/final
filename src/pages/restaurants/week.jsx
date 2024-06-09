@@ -41,7 +41,7 @@ export default function Week() {
                 <p className="date">
                   {item.date}일({item.day})
                 </p>
-                <ul className="menu">
+                <ul className="-menu">
                   {item.content.map((menu, index) => (
                     <li key={index}>{menu}</li>
                   ))}
@@ -61,7 +61,7 @@ export default function Week() {
                 <p className="date">
                   {item.date}일({item.day})
                 </p>
-                <ul className="menu">
+                <ul className="-menu">
                   {item.content.map((menu, index) => (
                     <li key={index}>{menu}</li>
                   ))}
